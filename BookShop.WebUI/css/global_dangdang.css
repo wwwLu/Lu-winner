@@ -1,0 +1,92 @@
+/* 公用的基本类 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,input,form,fieldset,img,dl,dt,dd{margin:0;padding:0;}
+body {font-size:12px;}
+h1,h2,h3,h4,h5,h6,h7 {text-align:left;font-size:12px;font-weight:400;}
+img,div,table{border:0;}
+ul,ol,li {list-style:none;}
+td {font:12px;}
+td a:link, td a:visited{text-decoration:none;font:12px;}
+input{vertical-align: middle; font-size:12px}
+.txtind{text-indent:2em}
+
+/*全局样式*/
+.content{clear: both;height:auto;width: 985px;margin:0 auto;padding:0;background-color: #FFFFFF;}
+.fl{float:left}
+.fr{float:right}
+.border_1{border:1px solid #d0d0d0}
+.even, .odd { background:#DBECF4!important; }
+.checked, .hover { background:#FEEEC2!important; color:#006!important; font-weight:bold!important; cursor:pointer; }
+
+
+/*宽度*/
+.col_w129{width:129px;}
+.col_w148{width:149px;}
+
+/* 清除溢出，浮动 */
+.clear{clear: both;}
+/* 不需要额外增加元素的清理浮动的类 */
+.wrapfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* IE7 hack */
+.wrapfix {display: inline-block;}
+/* IE-mac, IE5, IE6 */
+* html .wrapfix {height: 1%;}
+.wrapfix {display: block;}
+
+/* 间距 */
+.marmid{margin-left:auto; margin-right:auto;}
+.p3{padding:3px!important;}.pt3{padding-top:3px!important;}.pr3{padding-right:3px!important;}.pb3{padding-bottom:3px!important;}.pl3{padding-left:3px!important;}
+.p4{padding:4px!important;}.pt4{padding-top:4px!important;}.pr4{padding-right:4px!important;}.pb4{padding-bottom:4px!important;}.pl4{padding-left:4px!important;}
+.p5{padding:5px!important;}.pt5{padding-top:8px!important;}.pr5{padding-right:8px!important;}.pb5{padding-bottom:8px!important;}.pl5{padding-left:5px!important;}
+.p8{padding:8px!important;}.pt8{padding-top:8px!important;}.pr8{padding-right:8px!important;}.pb8{padding-bottom:8px!important;}.pl8{padding-left:8px!important;}
+.p10{padding:10px!important;}.pt10{padding-top:10px!important;}.pr10{padding-right:10px!important;}.pb10{padding-bottom:10px!important;}.pl10{padding-left:10px!important;}
+.p0{padding:0!important;}.pt0{padding-top:0!important;}.pr0{padding-right:0!important;}.pb0{padding-bottom:0!important;}.pl0{padding-left:0!important;}
+
+.m4{margin:4px!important;}.mt4{margin-top:4px!important;}.mr4{margin-right:4px!important;}.mb4{margin-bottom:4px!important;}.ml4{margin-left:4px!important;}
+.m5{margin:5px!important;}.mt5{margin-top:8px!important;}.mr5{margin-right:8px!important;}.mb5{margin-bottom:8px!important;}.ml5{margin-left:5px!important;}
+.m8{margin:8px!important;}.mt8{margin-top:8px!important;}.mr8{margin-right:8px!important;}.mb8{margin-bottom:8px!important;}.ml8{margin-left:8px!important;}
+.m10{margin:10px!important;}.mt10{margin-top:10px!important;}.mr10{margin-right:10px!important;}.mb10{margin-bottom:10px!important;}.ml10{margin-left:10px!important;}
+.m15{margin:15px!important;}.mt15{margin-top:15px!important;}.mr15{margin-right:15px!important;}.mb15{margin-bottom:15px!important;}.ml15{margin-left:15px!important;}
+.m0{margin:0!important;}.mt0{margin-top:0!important;}.mr0{margin-right:0!important;}.mb0{margin-bottom:0!important;}.ml0{margin-left:0!important;}
+
+/* 空白间隔样式设置开始 */
+.blank3 {clear:both;display:block;overflow:hidden;height:3px;font-size:0;}
+.blank5 {clear:both;display:block;overflow:hidden;height:5px;font-size:0;}
+.blank6 {clear:both;display:block;overflow:hidden;height:6px;font-size:0;}
+.blank8 {clear:both;display:block;overflow:hidden;height:8px;font-size:0;}
+.blank10{clear:both;display:block;overflow:hidden;height:10px;font-size:0;}
+.blank12{clear:both;display:block;overflow:hidden;height:12px;font-size:0;}
+.blank15{clear:both;display:block;overflow:hidden;height:15px;font-size:0;}
+.blank18{clear:both;display:block;overflow:hidden;height:18px;font-size:0;}
+.blank20{clear:both;display:block;overflow:hidden;height:20px;font-size:0;}
+
+
+
+/*内部所有公用样式*/
+/*内容整体架构B*/
+.book{ width:985px;margin:0 auto; background:#fff; padding:0 0 5px 0; }
+.book_left{ width:150px; padding:5px 0px 0px 0px; float:left; overflow:hidden;}
+.book_center{ width:645px; padding:5px 10px 0px 10px; float:left; overflow:hidden; }
+.book_right{ width:170px; padding:5px 0px 0px 0px; float:left; overflow:hidden;  }
+
+/*内容公用的title*/
+.gtit{ height:21px; overflow:hidden;}
+.gtit span{display:block; float:left; width:4px; height:21px; overflow:hidden; background:url(../images/index-bg-left.gif) no-repeat left top;}
+.gtit span.grig{ background:url(../images/index-bg-right.gif) no-repeat right top; float:right;}
+.gtit h2{ background:url(../images/index-bg-center.gif) repeat-x left top;height:21px;padding:0 4px 0 9px;line-height:21px;color:#FFF;float:left;font-weight:bold}
+
+
+/*内容-左框B*/
+.glist,.glist1{border:1px solid #CFC7B2;}
+.glist ul,.glist1 ul{padding:5px;}
+.glist ul li,.glist1 ul li{display:block; line-height:25px; height:25px; overflow:hidden; background:url(../images/book_cate_icon.gif) no-repeat 0 5px; padding-left:25px;}
+.glist1 ul li{line-height:23px!important;height:23px!important;background:url(../images/li.gif) no-repeat 5px 8px; padding-left:15px;}
+.glist ul li.lititle{background:url(../images/index-arrow.gif) no-repeat 5px 7px!important; font-size:14px; font-weight:700;}
+.glist1 ul li.more{background:none; text-align:right; padding:4px 0; color:#E26F05}
+.glist ul li a,.glist1 ul li a{color:#000; text-decoration:none}.glist1 ul li.more a{color:#E26F05}
+.glist ul li a:hover,.glist1 ul li a:hover{color:#F00; text-decoration:underline}

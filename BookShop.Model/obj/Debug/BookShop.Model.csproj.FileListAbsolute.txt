@@ -1,0 +1,11 @@
+E:\教学workspace\BookShop\BookShop.Model\bin\Debug\BookShop.Model.dll
+E:\教学workspace\BookShop\BookShop.Model\bin\Debug\BookShop.Model.pdb
+E:\教学workspace\BookShop\BookShop.Model\obj\Debug\BookShop.Model.dll
+E:\教学workspace\BookShop\BookShop.Model\obj\Debug\BookShop.Model.pdb
+E:\教学workspace\BookShop\BookShop.Model\obj\Debug\BookShop.Model.csprojAssemblyReference.cache
+F:\BookShop\BookShop.Model\bin\Debug\BookShop.Model.dll
+F:\BookShop\BookShop.Model\bin\Debug\BookShop.Model.pdb
+F:\BookShop\BookShop.Model\obj\Debug\BookShop.Model.csprojAssemblyReference.cache
+F:\BookShop\BookShop.Model\obj\Debug\BookShop.Model.csproj.CoreCompileInputs.cache
+F:\BookShop\BookShop.Model\obj\Debug\BookShop.Model.dll
+F:\BookShop\BookShop.Model\obj\Debug\BookShop.Model.pdb

@@ -1,0 +1,44 @@
+.yposition{
+  width:985px;
+  height:28px;
+  line-height:28px;
+}
+
+.class_wrap{
+   float:right;
+   width:830px;
+   margin-left:5px;
+   margin-top:10px;
+
+}
+.list_r_list{
+  width:830px;
+  height:auto;
+}
+.list_book_l{
+  float:left;
+  width:120px;
+  height:169px;
+}
+.list_book_r{
+  float:right;
+  width:700px;
+  margin-left:10px;
+}
+
+.list_book_r h2{font-size:12px;color:#1A66B3;text-align:left; margin-bottom:5px;}
+.list_book_r h2 a{font-size:14px;color:#06329B;text-align:left;margin-top:10px;}
+.list_book_r p{font-size:12px;color:#000;text-align:left;line-height:18px;}
+
+.list_box{
+  width:830px;
+  height:auto;
+
+}
+.list_box h3{
+ font-size:13px;color:#1A66B3;text-align:left; margin-bottom:5px; margin-top:5px; font-weight:bold;
+
+}
+.list_box p {
+  font-size:12px;color:#000;text-align:left;line-height:18px;
+}

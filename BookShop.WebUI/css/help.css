@@ -1,0 +1,24 @@
+/*当前位置 B*/
+.yposition{  width:980px;line-height:20px; padding:12px 0 8px 5px; margin:0 auto; clear:both;font-size:14px; border-bottom:2px solid #8AB6DB; margin-bottom:5px;}
+.yposition span{color:#cc3300;font-weight:bold;}
+.yposition a,.yposition a:hover{color:#878787; font-size:14px!important;}
+
+/*帮助中心 B*/
+.h137{height:137px!important;} .h137-32{height:105px;}
+.h300{height:300px!important;} .h300-32{height:268px;}
+
+	ul.helpbox li{border:1px solid #d2d2d2;margin-bottom:5px;overflow:hidden;}
+	ul.helpbox a{float:right;width:456px;border-left:1px solid #d2d2d2}
+	ul.helpbox a:hover img{ background:#F18217;}
+	ul.helpbox a img{width:450px;display:block;padding:3px;background:#fff;}
+		ul.helpbox a img.h137-6{height:131px;}
+		ul.helpbox a img.h300-6{height:294px;}
+		
+	
+	.right_box{width:485px;float:left;background:#f4f4f4;border:1px solid #fff;padding:15px;overflow:hidden;}
+	.right_box h3{margin-bottom:5px; font-size:28px; font-family:"微软雅黑", "宋体"}
+	.right_box h3 a{background:none;color:#242323;font-size:16px;font-family:Verdana, Geneva, sans-serif}
+	.right_box h3 a:hover{color:#63aa49;background:none;text-decoration:none}
+	.right_box p.site_tag{margin-top:10px; font-size:14px; font-family:"微软雅黑", "宋体";}
+	.right_box p a{color:#63aa49;width:auto;background:none}
+	.right_box p a:hover{background:none;color:#000;text-decoration:underline}

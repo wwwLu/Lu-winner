@@ -1,0 +1,35 @@
+
+/*内容整体架构B*/
+/*->详见global_dangdang.css*/
+/*内容-左框B*/
+/*->详见global_dangdang.css*/
+
+/*内容-中框B*/
+/*内容-中框-公用B*/
+.book_cg{ width:638px;margin:0px auto; }
+.book_cg h2{font-size:13px;color:#C49238;text-align:left;padding-left:20px;background:url(../images/index-arrow.gif) no-repeat 2px 6px;height:24px;line-height:24px;font-weight:bold;}
+.book_cg h2 a{color:#C49238; text-decoration:none;}
+h2 .more{float:right;margin-right:5px;color:#666;font-size:12px; font-weight:normal;}
+h2 .more a{color:#000;font-size:12px;font-weight:normal;}
+.bookc{width:638px; height:1%; overflow:hidden;}
+/*内容-中框-顶B*/
+.bookc_left{width:135px;height:180px;float:left;margin-top:20px;}
+.bookc_left .book_pic {margin:0 auto; width:132px; height:180px; text-align:center; position:relative}
+.bookc_left .book_pic img {margin:0 auto;width:132px; height:180px;}
+
+.bookc_rig{ width:476px;float:left; padding-right:0px; background:url(../images/xuxian_x.gif) bottom repeat-x; padding:10px; overflow:hidden}
+.bookc_rig h3{font-size:12px;color:#1A66B3;text-align:left;margin-top:10px;}
+.bookc_rig h3 a{font-size:14px;color:#06329B;text-align:left;margin-top:10px;}
+.bookc_rig p{font-size:12px;color:#000;text-align:left;margin-top:10px; line-height:24px;}
+.bookc_rig p.txt{color:#414141}
+
+/*内容-中框-中B*/
+.book_list {width:110px;float:left;padding:0 12px;margin:10px 8px;display:inline}
+.book_list .book_pic {height:117px; width:88px; margin:0 auto; text-align:center; position:relative}
+.book_list .book_pic img {margin:0 auto;height:117px; width:88px;}
+.book_list span{font-size:12px;color:#000;display:block;padding:3px 0;overflow:hidden;text-align:center; }
+.book_list span.spant{height:40px;line-height:20px;}
+.book_list span a{color:#06329B;}
+
+/*内容-右框B*/
+.login-input{width:140px;}.login-submit{margin-top:3px;}

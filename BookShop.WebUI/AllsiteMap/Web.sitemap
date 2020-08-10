@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/MemberPortal/index" title="图书首页"  description="">
+    <siteMapNode url="~/MemberPortal/BookList" title="图书列表"  description="" />
+	  <siteMapNode url="~/MemberPortal/BookDetail" title="图书购买"/>
+    <siteMapNode url="~/MemberPortal/ShopCart" title="购物车"  description="" />
+  </siteMapNode>
+</siteMap>

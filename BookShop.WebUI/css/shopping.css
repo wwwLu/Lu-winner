@@ -1,0 +1,24 @@
+/*当前位置 B*/
+.yposition{  width:980px;line-height:20px; padding:12px 0 0 5px; margin:0 auto; clear:both;font-size:14px;}
+.yposition span{color:#cc3300;font-weight:bold;}
+.yposition a,.yposition a:hover{color:#878787; font-size:14px!important;}
+
+/*设置细线表格*/
+.w60{width:60px;}
+.shop_table_tit td{font-size:14px;}
+#shop_table { border-collapse:collapse; margin:5px auto;}
+#shop_table th, #shop_table td { border:1px solid #ccc; padding:3px 5px;font:12px Verdana, Arial, Helvetica, sans-serif; }
+#shop_table a{color:#0066CC; text-decoration:underline!important;}
+#shop_table a:hover{color:red}
+
+
+.line-middle{text-decoration:line-through; margin-right:8px;}.shopping{background-image:url(../images/balance.gif);width:103px;height:36px;border:0; margin-left:20px;}.input1{border:1px #ccc solid; font-size:12px;width:30px; height:20px;text-align:center;padding-top:3px;}.more{color: #ff7000; font-size:12px; text-decoration: none;line-height:20px; margin-right:8px;}
+
+/*分页设置*/
+	.pages{width:708px; margin:20px auto; text-align:right; height:17px; line-height:17px;}
+	.pages a{text-decoration:none; color:#000!important;}
+	.pages .num_now{background:#C30; padding:1px 5px; margin:2px; color:#fff;}
+	.pages .num:link,.pages .num:visited{background:#FEEEC2; padding:1px 4px; margin:2px; color:#404040; text-decoration:none;}
+	.pages .num:hover{background:#C30; padding:1px 4px; margin:2px; color:#fff!important; text-decoration:underline;}
+	.pages .tiaozhuan{width:32px; border:1px solid #AFAFAF; margin:0 4px; height:13px; line-height:13px; padding:0}
+	.pages .next,.pages .enter{margin-left:6px;}

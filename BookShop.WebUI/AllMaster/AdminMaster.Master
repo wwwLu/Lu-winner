@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="BookShop.WebUI.AllMaster.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>网上书店后台管理系统</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../images/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+            <!--头部开始-->
+    <div id="top">
+        <div id="logo" style="width: 357px">
+        </div>
+        <div id="user">
+            <span id="user_info">欢迎您:admin
+        </div>
+    </div>
+    <!--头部结束-->
+    <div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td id="maintable_left">
+                    <!--左侧树开始-->
+                    <div id="left">
+                        <div id="left_menu">
+                        </div>
+                        <div id="left_tree">
+                            <div id="tree_text">
+                <div style="margin:15px 0 0 10px;"><asp:LinkButton PostBackUrl="~/AdminPortal/UserManage.aspx" runat="server" Text="会员管理" /></div>
+				<div style="margin:15px 0 0 10px;"><asp:LinkButton PostBackUrl="~/AdminPortal/BookList.aspx" runat="server" Text="图书分类管理" /></div>
+				<div style="margin:15px 0 0 10px;"><asp:LinkButton PostBackUrl="~/AdminPortal/UserManage.aspx" runat="server" Text="用户管理" /></div>
+                <div style="margin:15px 0 0 10px;"><asp:LinkButton PostBackUrl="~/AdminPortal/AdminOrders.aspx" runat="server" Text="订单列表" /></div>
+                <div style="margin:15px 0 0 10px;"><asp:LinkButton PostBackUrl="~/AdminPortal/AddBook.aspx" runat="server" Text="添加图书" /></div>
+			
+                            </div>
+                        </div>
+                        <div id="tree_down">
+                        </div>
+                    </div>
+                    <!--左侧树结束-->
+                </td>
+                <td id="maintable_right">
+                    <!--右侧顶部导航开始-->
+                    <div id="right_top">
+                        <div id="img">
+                            <img src="../images/close.gif" /></div>
+                        <span class="imgtext"></span>
+                        <div id="loginout">
+                            <div id="loginoutimg">
+                                <img src="../images/loginout.gif" width="26" /></div>
+                            <span class="logintext"><a href="#">退出系统</a></span>
+                        </div>
+                    </div>
+                    <div id="right_font">
+                        <img src="../images/main_14.gif" /><span>您现在所在的位置：</span> <span>
+                            图书管理
+                           &nbsp;&nbsp;   
+                            </span>
+                    </div>
+                    <!--右侧顶部导航结束-->
+                    <!--右侧内容开始-->
+                    <div id="right_content">
+                        <div>
+                               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <!--右侧内容结束-->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    </form>
+</body>
+</html>

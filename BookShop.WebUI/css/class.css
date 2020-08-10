@@ -1,0 +1,44 @@
+/*当前位置 B*/
+.yposition{  width:980px; height:29px; line-height:20px; padding:12px 0 0 5px; margin:0 auto; clear:both;font-size:14px;}
+.yposition span{color:#cc3300;font-weight:bold;}
+.yposition a,.yposition a:hover{color:#878787; font-size:14px!important;}
+
+/*图书列表右边 B*/
+
+	/*整体设置*/
+	.class_wrap { width:810px; float:right; padding-top:5px;}
+	.class_wrap a, .class_wrap a:hover { color:#1a66b3;}
+	/*上部分按什么排序设置*/
+	.list_right{ width:808px; float:right; border:1px solid #a1a1a1;padding:0px 0px 10px 0px; overflow:hidden;}
+	.list_r_top{ width:806px; margin:0 auto; height:31px; border-top:1px solid #fff; border-bottom:1px solid #A1A1A1; background-color: #FFF0D9; }
+	.list_r_toptext{margin-left:5px;float:left;margin-top:8px;}
+	.list_r_toptext img{margin-left:3px;}
+	.list_r_toporder{margin-left:10px;float:left;padding-left:3px;margin-top:7px;}
+	.list_r_toporder img{margin-left:3px;}
+	/*下部分list列表*/
+	.list_r_list{ border-bottom:1px solid #a1a1a1; padding-bottom:8px; margin-left:16px; margin-right:16px; clear: both; }
+	.list_r_list .list_book_l { width:100px; float:left; margin-top:32px; padding-left:8px;}
+	.list_r_list .list_book_r{ width:655px; float:left;}
+	/*左图*/
+	.list_book_l .pic{ height:121px; width:95px;  float:left; text-align: center; border: 1px solid #ddd; display: block; padding:1px;}
+	.list_book_l .pic img{width:95px; height:121px;}
+	/*右字*/
+	.list_book_r h2{background:url(../images/class/xuxian_x.gif) bottom repeat-x;padding:0 0 5px 25px;font-size:14px;color:#1a66b3;margin-top:30px;width:583px;}
+	.list_book_r h2 a{color:#1a66b3; font-size:14px;}
+	.list_book_r h2 a:hover{color:#F00;}
+	.list_book_r p{ padding-left:25px;display:block; color:#404040; margin-top:9px; width:588px; margin-bottom:6px;}
+	.list_book_r p.l{ float:left;color:#878787;margin-top:3px;width:auto;}
+	.list_book_r p.l a{color:#1a66b3;}
+	.list_book_r p.l a:hover{color:#1a66b3;}
+	.list_book_r p.t{padding-top:10px;padding-left:25px;color:#404040; clear:both; margin:0;text-indent:2em; line-height:23px;}
+	.list_book_r p.s{ float:left; padding-left:0px; color:#404040; margin-top:9px; margin-right:12px; text-align:right; width:413px; }
+	.list_book_r p.s .del { color:#878787;}.list_book_r p.s .red{color:red}
+	.list_book_r .goushou img{margin-left:3px;margin-top:5px;}
+	/*分页设置*/
+	.pages{width:708px; margin:20px auto; text-align:right; height:17px; line-height:17px;}
+	.pages .num_now{background:#C30; padding:1px 5px; margin:2px; color:#fff;}
+	.pages .num:link,.pages .num:visited{background:#FEEEC2; padding:1px 4px; margin:2px; color:#404040; text-decoration:none;}
+	.pages .num:hover{background:#C30; padding:1px 4px; margin:2px; color:#fff!important; text-decoration:underline;}
+	.pages .tiaozhuan{width:32px; border:1px solid #AFAFAF; margin:0 4px; height:13px; line-height:13px; padding:0}
+	.pages .next,.pages .enter{margin-left:6px;}
+

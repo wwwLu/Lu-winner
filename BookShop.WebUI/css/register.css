@@ -1,0 +1,28 @@
+.h{height:100%; overflow:hidden}
+/*当前位置 B*/
+.yposition{  width:980px;line-height:20px; padding:12px 0 8px 5px; margin:0 auto; clear:both;font-size:14px; border-bottom:2px solid #8AB6DB; margin-bottom:5px;}
+.yposition span{color:#cc3300;font-weight:bold;}
+.yposition a,.yposition a:hover{color:#878787; font-size:14px!important;}
+
+/*设置细线表格*/
+#shop_table { border-collapse:collapse; margin:5px auto;}
+#shop_table th, #shop_table td { border:1px solid #ccc; padding:5px;font-size:12px; }
+#shop_table td.c{color:#CCC}
+.inp{width:150px; height:19px; border:1px solid #CCC}.inp1{width:120px; height:19px; border:1px solid #CCC}
+#shop_table a{color:#0066CC; text-decoration:underline!important;}
+#shop_table a:hover{color:red}
+
+/*登录页面样式表*/
+.login-left{padding:30px 50px 20px 50px;float:left;line-height:22px;width:55%;}
+.login-left li{font-size:14px; line-height:23px; margin-bottom:5px;}.login-left li.b{font-weight:bold}
+.login-right{padding-top:20px;padding-right:50px; float:right;margin-bottom:30px;}
+.login-top{BACKGROUND: url(../images/login_top.gif) no-repeat left bottom; OVERFLOW: hidden; WIDTH: 279px; HEIGHT: 8px}
+.login-mid{border-right:#7a7977 1px solid;border-left:#7a7977 1px solid; WIDTH: 277px;BACKGROUND-COLOR: #f9f9f9}
+.login-bottom{BACKGROUND: url(../images/login_bottom.gif) no-repeat; OVERFLOW: hidden; WIDTH: 279px; HEIGHT: 8px}
+.notice {text-align:center; FONT-WEIGHT: bold; COLOR: #fa0404; PADDING-TOP: 12px; HEIGHT: 30px; font-size:24px;}
+.main {BORDER-TOP: #afaba8 1px dashed; MARGIN-LEFT:15px; WIDTH: 250px; BORDER-BOTTOM: #afaba8 1px dashed;
+padding-top:20px;padding-bottom:20px;}
+.login-input{border:1 #cccccc solid; font-size:12px;width:130px; height:20px;}
+.login-submit{border-bottom:1 #cccccc solid;border-right:1 #cccccc solid;border-top:0 #cccccc solid;border-left:0 #cccccc solid; font-size:12px;width:60px; height:24px;padding-top:5px;}
+.login-dl{text-align:center;padding-top:10px;padding-bottom:10px;}
+.login-end{padding-left:20px;padding-top:20px;padding-bottom:20px;font-size:13px;font-weight:bold;}

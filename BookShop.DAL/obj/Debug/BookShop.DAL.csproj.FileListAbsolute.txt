@@ -1,0 +1,17 @@
+E:\教学workspace\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.dll
+E:\教学workspace\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.pdb
+E:\教学workspace\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.dll
+E:\教学workspace\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.pdb
+E:\教学workspace\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csprojAssemblyReference.cache
+E:\教学workspace\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csproj.CopyComplete
+E:\教学workspace\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.dll
+E:\教学workspace\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.pdb
+F:\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.dll
+F:\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.pdb
+F:\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.dll
+F:\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.pdb
+F:\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csprojAssemblyReference.cache
+F:\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csproj.CoreCompileInputs.cache
+F:\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csproj.CopyComplete
+F:\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.dll
+F:\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.pdb
